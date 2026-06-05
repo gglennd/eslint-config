@@ -1,0 +1,36 @@
+{
+  "name": "@gglennd/eslint-config",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config based on @antfu/eslint-config with sensible defaults",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "gglennd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gglennd/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/gglennd/eslint-config/issues"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "dependencies": {
+    "@antfu/eslint-config": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-plugin-format": "^2.0.0"
+  }
+}
